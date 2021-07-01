@@ -26,19 +26,11 @@
     },
     {
       "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food2.png",
-      "name": "Comida gostosa",
+      "name": "yayyy",
       "price": "30",
       "description": "Italiano de verdade",
       "available": true,
       "id": 4
-    },
-    {
-      "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food2.png",
-      "name": "yummy",
-      "price": "99",
-      "description": "O melhor",
-      "available": false,
-      "id": 5
     }
   ]
 }

@@ -5,7 +5,22 @@ import { Container } from './styles';
 import api from '../../services/api';
 import { useState } from 'react';
 
-function Food(props) {
+interface IFood {
+  id: number,
+  name: string,
+  description: string,
+  price: number,
+  available: boolean,
+  image: string,
+}
+
+interface FoodProps {
+  food: IFood,
+  handleDelete: (foodId: number) => void;
+  handleEditFood: (food: IFood) => void;
+}
+
+function Food(props: FoodProps) {
   const { food, handleDelete, handleEditFood } = props;
   const [isAvailable, setIsAvailable] = useState(food.available);
 
